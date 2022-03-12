@@ -2,6 +2,7 @@
 
 - [Open Policy Agent](https://www.openpolicyagent.org/)
 - [OPA: Terraform](https://www.openpolicyagent.org/docs/v0.14.2/terraform/)
+- [OPA: Playground](https://play.openpolicyagent.org/)
 
 ---
 
@@ -19,7 +20,6 @@
 ## Contents
 
 - [Create](#create)
-- [Resources](#resources)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
