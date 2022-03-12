@@ -18,3 +18,17 @@ validate: ## Validate files with pre-commit hooks
 
 build: ## Docker build
 	@docker build -t opa .
+
+check-cmd:
+ifndef name
+		$(error The name variable is not set)
+endif
+ifneq ($(findstring ex,$(name)),ex)
+		$(error The name variable does not contain 'ex')
+endif
+
+create: ## Create new template name=exN. Should fail if exercise exists.
+create: check-cmd
+	@mkdir playground/$(name)
+	@cp -r playground/template/ playground/$(name)/
+	@tree playground/$(name)
