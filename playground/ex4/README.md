@@ -13,6 +13,6 @@ Example from [here](https://www.openpolicyagent.org/docs/latest/terraform/).
 > Terraform blask radius tests
 
 ```sh
-opa exec --decision terraform/analysis/authz --bundle playground/ex4/ playground/ex4/fixtures/default/apply.json
-opa exec --decision terraform/analysis/score --bundle playground/ex4/ playground/ex4/fixtures/default/apply.json
+opa exec --decision terraform/analysis/authz --bundle playground/ex4/ playground/ex4/fixtures/base/apply.json
+opa exec --decision terraform/analysis/score --bundle playground/ex4/ playground/ex4/fixtures/base/apply.json
 ```

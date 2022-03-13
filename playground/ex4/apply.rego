@@ -40,6 +40,7 @@ score = s {
             x := del + new + mod
     ]
     s := sum(all)
+    # print(s)
 }
 
 # Whether there is any change to IAM
@@ -88,4 +89,24 @@ num_modifies[resource_type] = num {
     all := resources[resource_type]
     modifies := [res |  res:= all[_]; res.change.actions[_] == "update"]
     num := count(modifies)
+}
+
+# `allow` is a "rule". The simplest kind of rules in Rego are "if-then" statements
+# that assign a single value to a variable. If the value is omitted, it defaults to `true`.
+# In other words, this rule is equivalent to:
+#
+#	allow = true {
+#		score < blast_radius
+#	}
+#
+# Since statements like `X = true { ... }` are so common, Rego lets you omit the `= true` bit.
+#
+# This rule says (in English):
+#
+#	allow is true if...
+#		score is less then blast radidus is "GET"
+#
+# The statements in the body of the rule are AND-ed together.
+allow {
+	score < blast_radius
 }
