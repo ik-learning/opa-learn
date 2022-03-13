@@ -42,6 +42,9 @@ create: check-cmd
 run: ## Run tests
 	@opa eval --format pretty --data playground/ex1/apply.rego --input apply.json 'data.terraform.apply'
 
+exec: ## Execute into container
+	@docker run --rm -it cloudkats/opa /bin/bash
+
 ex: EXERCISES = $(shell cd playground; find . -type d -maxdepth 1 | grep 'ex' | sed 's@./@@')
 ex: ## Exercices
 	@echo $(EXERCISES)
