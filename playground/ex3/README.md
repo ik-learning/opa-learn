@@ -8,7 +8,7 @@
 
 # Exercise 3
 
-> Run auth example
+> Run auth example. Multiple fixtures.
 
 ```sh
 mk tests num=3
