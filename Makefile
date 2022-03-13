@@ -4,6 +4,7 @@ SHELL := /bin/bash
 MAKEFLAGS += --warn-undefined-variables
 MAKEFLAGS += --no-builtin-rules
 
+
 help:
 	@printf "Usage: make [target] [VARIABLE=value]\nTargets:\n"
 	@grep -E '^[a-zA-Z0-9_-]+:.*?## .*$$' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}'
@@ -40,6 +41,10 @@ create: check-cmd
 
 run: ## Run tests
 	@opa eval --format pretty --data playground/ex1/apply.rego --input apply.json 'data.terraform.apply'
+
+ex: EXERCISES = $(shell cd playground; find . -type d -maxdepth 1 | grep 'ex' | sed 's@./@@')
+ex: ## Exercices
+	@echo $(EXERCISES)
 
 tests: ## Run tests for num=1...99.
 tests: check-num
