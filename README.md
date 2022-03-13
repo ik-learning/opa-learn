@@ -39,6 +39,7 @@ mk tests num=4
 ## Resources
 
 - [Policies](https://github.com/mjlshen/terraform-aws-opa)
+- [Tutorial](https://www.scalr.com/blog/opa-series-part-2-opa-logic-and-structure-for-scalr)
 
 ## Create
 

@@ -51,4 +51,4 @@ ex: ## Exercices
 
 tests: ## Run tests for num=1...99.
 tests: check-num
-	@opa test -v ./playground/ex$(num)
+	@opa test -v -f pretty ./playground/ex$(num)
