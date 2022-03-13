@@ -20,6 +20,7 @@
 ## Contents
 
 - [Commands](#commands)
+- [Resources](#resources)
 - [Create](#create)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -30,7 +31,14 @@
 
 ```sh
 mk tests num=1
+mk tests num=2
+mk tests num=3
+mk tests num=4
 ```
+
+## Resources
+
+- [Policies](https://github.com/mjlshen/terraform-aws-opa)
 
 ## Create
 
