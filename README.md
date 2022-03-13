@@ -34,6 +34,16 @@ mk tests num=1
 mk tests num=2
 mk tests num=3
 mk tests num=4
+
+1. terraform init
+2. terraform plan --out tfplan.binary
+3. terraform show -json tfplan.binary > tfplan.json
+# command to find the score
+4. opa eval --format pretty --data s3-validate.rego --input tfplan.json "data.terraform.analysis.score"
+# command to find true / false flag.
+5. opa eval --format pretty --data s3-validate.rego --input tfplan.json "data.terraform.analysis.authz"
+# command to get list of errors, in this scenario you have to provide the rego file name as well
+6. opa eval -f pretty --explain=notes  --data rds-validate.rego --input tfplan.json "authorized = data.terraform.analysis.authz; violations = data.terraform.analysis.violation"
 ```
 
 ## Resources
