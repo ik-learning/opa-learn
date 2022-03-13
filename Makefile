@@ -27,8 +27,20 @@ ifneq ($(findstring ex,$(name)),ex)
 		$(error The name variable does not contain 'ex')
 endif
 
+check-num:
+ifndef num
+		$(error The num variable is not set)
+endif
+
 create: ## Create new template name=exN. Should fail if exercise exists.
 create: check-cmd
 	@mkdir playground/$(name)
 	@cp -r playground/template/ playground/$(name)/
 	@tree playground/$(name)
+
+run: ## Run tests
+	@opa eval --format pretty --data playground/ex1/apply.rego --input apply.json 'data.terraform.apply'
+
+tests: ## Run tests for num=1...99.
+tests: check-num
+	@opa test -v ./playground/ex$(num)

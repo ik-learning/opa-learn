@@ -19,11 +19,18 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 ## Contents
 
+- [Commands](#commands)
 - [Create](#create)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ---
+
+## Commands
+
+```sh
+mk tests num=1
+```
 
 ## Create
 
