@@ -2,10 +2,10 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 ## Contents
 
-- [Exercise 16](#exercise-16)
+- [Exercise 17](#exercise-17)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-# Exercise 16
+# Exercise 17
 
-How to use OPA with [terraform modules](https://github.com/Scalr/sample-tf-opa-policies/tree/master/modules)
+[AWS](https://github.com/Scalr/sample-tf-opa-policies/tree/master/aws)
