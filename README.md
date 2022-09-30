@@ -59,3 +59,13 @@ mk tests num=4
 <!-- resources -->
 [template.generate]: https://github.com/ik-learning/opa-learn/generate
 [code-style.badge]: https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square
+
+
+Gitlab
+- https://github.com/SecurityIsIllusion/opa-integration
+- https://gitlab.com/memorandom/open-policy-agent-first-steps/-/tree/master/
+- https://gitlab.com/nico-meisenzahl/demo-opa-terraform-validation/-/tree/main/
+- Secrets/Gitlab https://gitlab.com/gitlab-com/gl-security/engineering-and-research/gib/-/tree/main/
+
+OPA slideshare https://www.slideshare.net/nmeisenzahl/gitlab-commit-enhance-your-compliance-with-policybased-cicd
+
