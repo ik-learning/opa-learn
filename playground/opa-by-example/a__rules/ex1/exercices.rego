@@ -19,7 +19,11 @@ import future.keywords
 # Input: {"a": true, "b": true, "c": true}
 # Output: {"output1": true, ...}
 output1 := true if {
-  false  # TODO
+  # print(input)
+  some el in input
+  el == true
+  # v if "hello" == "world"
+  # print(sum(result))
 }
 
 # Exercise 2
@@ -31,7 +35,8 @@ output1 := true if {
 # Input: {"a": false, "b": false, "c": true}
 # Output: {"output2": true, ...}
 output2 := true if {
-  false  # TODO
+  some el in input
+  el == true
 }
 
 # Exercise 3
@@ -42,5 +47,14 @@ output2 := true if {
 # Input: {"a": true, "b": false, "c": true}
 # Output: {"output3": true, ...}
 output3 := true if {
-  false  # TODO
+  input.a == true
+  input.c == true
+}
+
+# METADATA
+# title: all true custom function
+all_true(elements) := false if {
+  print(elements)
+  some el in elements
+  el != true
 }
