@@ -2,7 +2,8 @@
 
 - [Open Policy Agent](https://www.openpolicyagent.org/)
 - [OPA: Terraform](https://www.openpolicyagent.org/docs/v0.14.2/terraform/)
-- [OPA: Playground](https://play.openpolicyagent.org/)
+- [OPA&Rego: Playground](https://play.openpolicyagent.org/)
+- [OPA: sources](https://github.com/open-policy-agent/opa)
 
 ---
 
@@ -69,3 +70,7 @@ Gitlab
 
 OPA slideshare https://www.slideshare.net/nmeisenzahl/gitlab-commit-enhance-your-compliance-with-policybased-cicd
 
+- https://spacelift.io/blog/what-is-open-policy-agent-and-how-it-works
+- http://i-cloudconsulting.com/cloud-compliance-opa-policies/
+- https://epam.github.io/edp-install/user-guide/opa-stages/
+- https://academy.styra.com/collections?page=1
