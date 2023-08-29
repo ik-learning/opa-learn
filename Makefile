@@ -52,3 +52,6 @@ ex: ## Exercices
 tests: ## Run tests for num=1...99.
 tests: check-num
 	@opa test -v -f pretty ./playground/ex$(num)
+
+opa-by-example-tests: ## Test num=1...99 opa-by-example/ex1. Example: num=1 mk opa-by-example-tests
+	@opa test -v -f pretty playground/opa-by-example/ex$(num)

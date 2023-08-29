@@ -26,7 +26,7 @@ is_moderator := true if {  # anyone with "admin" role is a moderator
 }
 
 allow_delete := true if {  # allow a moderator to delete
-  is_moderator == true
+  role.is_moderator
 }
 
 # EXERCISE 3:
