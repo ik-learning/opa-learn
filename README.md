@@ -1,6 +1,7 @@
 # Opa Learn
 
 - [Open Policy Agent](https://www.openpolicyagent.org/)
+- [Opa: Docs](https://www.openpolicyagent.org/docs)
 - [OPA: Terraform](https://www.openpolicyagent.org/docs/v0.14.2/terraform/)
 - [OPA&Rego: Playground](https://play.openpolicyagent.org/)
 - [OPA: sources](https://github.com/open-policy-agent/opa)

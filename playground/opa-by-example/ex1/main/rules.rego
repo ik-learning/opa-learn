@@ -8,7 +8,7 @@ allow_review := true if {  # allow a customer with reputation >= 0 to review
   # - See in the bottom "Tests" pane two tests are failing.
   # - The "test_disallow_non_customer_to_review" test fails because the current policy allows a non-customer to review.
   # - Fix the failure by uncommenting line 11 below. Click "Validate" again to see that only one test fails.
-  #input.role == "customer"
+  input.role == "customer"
   input.reputation >= 0
 }
 
@@ -21,7 +21,8 @@ is_moderator := true if {  # anyone with "admin" role is a moderator
   # - The test "test_allow_admin_to_delete" is failing because the current policy does
   #   not consider an admin a moderator.
   # - Replace the next line (24) with the correct condition so that all tests pass.
-  false
+  # false
+  input.role == "admin"
 }
 
 allow_delete := true if {  # allow a moderator to delete
