@@ -55,3 +55,6 @@ tests: check-num
 
 opa-by-example-tests: ## Test num=1...99 opa-by-example/ex1. Example: num=1 mk opa-by-example-tests
 	@opa test -v -f pretty playground/opa-by-example/ex$(num)
+
+opa-by-example-tests-all: ## Run all opa-by-example tests
+	@opa test -v -f pretty --bundle playground/opa-by-example

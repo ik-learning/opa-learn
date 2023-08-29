@@ -5,6 +5,18 @@
 - [OPA: Terraform](https://www.openpolicyagent.org/docs/v0.14.2/terraform/)
 - [OPA&Rego: Playground](https://play.openpolicyagent.org/)
 - [OPA: sources](https://github.com/open-policy-agent/opa)
+- [Rego: basics](https://www.openpolicyagent.org/docs/latest/policy-language/)
+- [Opa: Awesome collection](https://github.com/StyraInc/awesome-opa)
+- [Opa: 101](https://www.permit.io/blog/load-external-data-into-opa)
+
+## Example Repositories
+
+- [RedHat opa policies](https://github.com/ik-infrastructure-testing/rego-policies)
+- [Appshield: opa policies](https://github.com/ik-infrastructure-testing/appshield)
+- [Library: opa collection of library policies](https://github.com/ik-infrastructure-testing/library)
+- [K8s security best practices: opa policies](https://github.com/ik-infrastructure-testing/k8s-security-policies)
+- [Terraform policies: opa policies](https://github.com/ik-infrastructure-testing/confectionery)
+- [Styra labs: opa policies](https://github.com/ik-infrastructure-testing/academy-samples)
 
 ---
 
