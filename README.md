@@ -8,6 +8,8 @@
 - [Rego: basics](https://www.openpolicyagent.org/docs/latest/policy-language/)
 - [Opa: Awesome collection](https://github.com/StyraInc/awesome-opa)
 - [Opa: 101](https://www.permit.io/blog/load-external-data-into-opa)
+- [Rego Cool blog](https://www.styra.com/blog/how-to-express-or-in-rego/)
+- [Rego Style guide](https://docs.styra.com/opa/rego-style-guide)
 
 ## Example Repositories
 
