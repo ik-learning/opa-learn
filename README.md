@@ -19,6 +19,9 @@
 - [K8s security best practices: opa policies](https://github.com/ik-infrastructure-testing/k8s-security-policies)
 - [Terraform policies: opa policies](https://github.com/ik-infrastructure-testing/confectionery)
 - [Styra labs: opa policies](https://github.com/ik-infrastructure-testing/academy-samples)
+- [Rego examples](https://github.com/ik-infrastructure-testing/RegoCheatSheetExamples-rego-fork)
+- [AWS Policy as code OPA](https://github.com/ik-infrastructure-testing/aws-infra-policy-as-code-with-terraform-fork)
+- [Teraform rego](https://developer.hashicorp.com/terraform/cloud-docs/policy-enforcement/define-policies/opa)
 
 ---
 
