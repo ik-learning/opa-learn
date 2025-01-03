@@ -1,0 +1,17 @@
+{
+  "attributes": {
+    "user": [
+      "read:books"
+    ],
+    "moderator": [
+      "read:books",
+      "write:books"
+    ],
+    "administrator": [
+      "read:books",
+      "write:books",
+      "read:store",
+      "write:store"
+    ]
+  }
+}

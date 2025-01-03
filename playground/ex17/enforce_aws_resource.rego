@@ -5,6 +5,7 @@
 #       before "not array_contains..."
 #
 #       startswith(resources.type,"aws_")
+# https://www.scalr.com/blog/opa-series-part-1-open-policy-agent-and-terraform
 
 package terraform
 

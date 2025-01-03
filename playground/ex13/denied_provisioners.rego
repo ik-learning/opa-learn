@@ -10,7 +10,7 @@ denied_provisioners = ["local-exec"]
 
 
 array_contains(arr, elem) {
-  arr[_] = elem
+    arr[_] = elem
 }
 
 module_name(path) = name {
