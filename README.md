@@ -23,6 +23,9 @@
 - [AWS Policy as code OPA](https://github.com/ik-infrastructure-testing/aws-infra-policy-as-code-with-terraform-fork)
 - [Teraform rego](https://developer.hashicorp.com/terraform/cloud-docs/policy-enforcement/define-policies/opa)
 
+
+- [Blog with terraform](https://www.scalr.com/blog/opa-series-part-1-open-policy-agent-and-terraform)
+
 ---
 
 ![](https://img.shields.io/github/commit-activity/m/ik-learning/opa-learn)
