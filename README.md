@@ -22,7 +22,7 @@
 - [Rego examples](https://github.com/ik-infrastructure-testing/RegoCheatSheetExamples-rego-fork)
 - [AWS Policy as code OPA](https://github.com/ik-infrastructure-testing/aws-infra-policy-as-code-with-terraform-fork)
 - [Teraform rego](https://developer.hashicorp.com/terraform/cloud-docs/policy-enforcement/define-policies/opa)
-
+- [Opa Learn (some tricks)](https://github.com/ik-infrastructure-testing/learning-opa-and-terraform-fork)
 
 - [Blog with terraform](https://www.scalr.com/blog/opa-series-part-1-open-policy-agent-and-terraform)
 
