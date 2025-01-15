@@ -10,6 +10,7 @@
 - [Opa: 101](https://www.permit.io/blog/load-external-data-into-opa)
 - [Rego Cool blog](https://www.styra.com/blog/how-to-express-or-in-rego/)
 - [Rego Style guide](https://docs.styra.com/opa/rego-style-guide)
+- [Opa Cheat Sheet](https://docs.styra.com/opa/rego-cheat-sheet)
 
 ## Example Repositories
 
